@@ -15,24 +15,24 @@ set_expiration = 'vault_monitor.expiration_monitor.set_expiration:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
-hvac = "^1.0.2"
-prometheus-client = "^0.15.0"
-requests = "^2.27.1"
+hvac = "^2.3.0"
+prometheus-client = "^0.20.0"
+requests = "^2.32.3"
 PyYAML = "^6.0"
 Cerberus = "^1.3.4"
 
 [tool.poetry.dev-dependencies]
-black = "^23.1.0"
-pylint = "^2.13.7"
-pytest = "^7.1.1"
-pytest-cov = "^4.0.0"
-types-requests = "^2.27.25"
-types-PyYAML = "^6.0.7"
-bandit = "^1.7.4"
+black = "^24.4.2"
+pylint = "^3.2.6"
+pytest = "^8.3.1"
+pytest-cov = "^5.0.0"
+types-requests = "^2.32.0"
+types-PyYAML = "^6.0.12"
+bandit = "^1.7.9"
 bump2version = "^1.0.1"
-pytest-mock = "^3.7.0"
-mock = "^4.0.3"
-mypy = "^1.01"
+pytest-mock = "^3.14.0"
+mock = "^5.1.0"
+mypy = "^1.11"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
